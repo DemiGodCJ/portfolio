@@ -46,13 +46,13 @@ body {
 .header .rheader ul li a {
     text-decoration: none;
     color: #d3d3d3;
-    font-size: 1rem;
+    font-size: 1.5rem;
     transition: color 0.3s;
 }
 
 .header .rheader ul li a:hover {
     color: #00ff00; 
-    font-size: 1rem;
+    font-size: 1.5rem;
 }
 
 .about {
@@ -62,7 +62,7 @@ body {
 }
 
 .about .abouth {
-    font-size: 1rem;
+    font-size: 1.5rem;
     text-align: center;
     color: #00ff00; /* Neon Green */
 }
@@ -84,7 +84,7 @@ body {
     text-align: center;
     margin: auto;
     color: #d3d3d3;
-    font-size: 1rem;
+    font-size: 1.5rem;
 }
 
 .rabout h2 {
@@ -92,7 +92,7 @@ body {
 }
 
 .rabout strong{
-    font-size: 1rem;
+    font-size: 1.5rem;
 }
 
 .education {
@@ -114,14 +114,14 @@ body {
 
 .education .container .ed{
     text-align: center;
-    font-size: 1rem;
+    font-size: 1.5rem;
 }
 
 .skills {
     background-color: #292929;
     padding: 5vh;
     text-align: justify;
-    font-size: 1rem;
+    font-size: 1.5rem;
     animation: fadeIn 1.2s ease-in-out;
 
 }
@@ -138,7 +138,7 @@ body {
     background-color: #1f1f1f;
     padding: 4vh;
     animation: slideIn 1s ease-in-out;
-    font-size: 1rem;
+    font-size: 1.5rem;
 }
 
 .experience h2 {
@@ -150,7 +150,7 @@ body {
     background-color: #292929;
     padding: 5vh 0;
     animation: fadeIn 1.5s ease-in-out;
-    font-size: 1rem;
+    font-size: 1.5rem;
 }
 
 .contact h2 {
