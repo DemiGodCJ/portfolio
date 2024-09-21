@@ -62,7 +62,7 @@ body {
 }
 
 .about .abouth {
-    font-size: 3rem;
+    font-size: 2rem;
     text-align: center;
     color: #00ff00; /* Neon Green */
 }
@@ -84,7 +84,7 @@ body {
     text-align: center;
     margin: auto;
     color: #d3d3d3;
-    font-size: 2.5rem;
+    font-size: 2rem;
 }
 
 .rabout h2 {
