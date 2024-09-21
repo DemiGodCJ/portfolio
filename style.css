@@ -31,12 +31,12 @@ body {
 
 .header h1 {
     color: #00ff00; /* Neon Green */
-    font-size: 2rem;
+    font-size: 1rem;
 }
 
 .header .rheader ul {
     display: flex;
-    gap: 2rem;
+    gap: 1rem;
 }
 
 .header .rheader ul li {
@@ -52,7 +52,7 @@ body {
 
 .header .rheader ul li a:hover {
     color: #00ff00; 
-    font-size: 1.5rem;
+    font-size: 1rem;
 }
 
 .about {
@@ -62,7 +62,7 @@ body {
 }
 
 .about .abouth {
-    font-size: 2.5rem;
+    font-size: 1rem;
     text-align: center;
     color: #00ff00; /* Neon Green */
 }
@@ -70,7 +70,7 @@ body {
 .about .container {
     display: grid;
     grid-template-columns: 1fr 2fr;
-    gap: 1.5rem;
+    gap: 1rem;
     padding: 3vh;
 }
 
@@ -92,7 +92,7 @@ body {
 }
 
 .rabout strong{
-    font-size: 2rem;
+    font-size: 1rem;
 }
 
 .education {
@@ -109,7 +109,7 @@ body {
 .education .container {
     display: grid;
     grid-template-columns: 1fr 1fr;
-    gap: 2rem;
+    gap: 1rem;
 }
 
 .education .container .ed{
@@ -121,7 +121,7 @@ body {
     background-color: #292929;
     padding: 5vh;
     text-align: justify;
-    font-size: 1.5rem;
+    font-size: 1rem;
     animation: fadeIn 1.2s ease-in-out;
 
 }
@@ -138,7 +138,7 @@ body {
     background-color: #1f1f1f;
     padding: 4vh;
     animation: slideIn 1s ease-in-out;
-    font-size: 1.5rem;
+    font-size: 1rem;
 }
 
 .experience h2 {
@@ -150,7 +150,7 @@ body {
     background-color: #292929;
     padding: 5vh 0;
     animation: fadeIn 1.5s ease-in-out;
-    font-size: 1.5rem;
+    font-size: 1rem;
 }
 
 .contact h2 {
