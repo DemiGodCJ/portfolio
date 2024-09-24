@@ -31,12 +31,12 @@ body {
 
 .header h1 {
     color: #00ff00; /* Neon Green */
-    font-size: 2rem;
+    font-size: 25px;
 }
 
 .header .rheader ul {
     display: flex;
-    gap: 1rem;
+    gap: 20px;
 }
 
 .header .rheader ul li {
@@ -46,13 +46,13 @@ body {
 .header .rheader ul li a {
     text-decoration: none;
     color: #d3d3d3;
-    font-size: 2rem;
+    font-size:10px;
     transition: color 0.3s;
 }
 
 .header .rheader ul li a:hover {
     color: #00ff00; 
-    font-size: 2rem;
+    font-size: 15px;
 }
 
 .about {
@@ -62,7 +62,7 @@ body {
 }
 
 .about .abouth {
-    font-size: 2rem;
+    font-size: 20px;
     text-align: center;
     color: #00ff00; /* Neon Green */
 }
@@ -70,12 +70,12 @@ body {
 .about .container {
     display: grid;
     grid-template-columns: 1fr 2fr;
-    gap: 1rem;
+    gap: 10px;
     padding: 3vh;
 }
 
 .about img {
-    height: 40vh;
+    height: 50vh;
     border-radius: 50%;
     border: 5px solid #00ff00;
 }
@@ -88,15 +88,15 @@ body {
 
 .rabout h2 {
     color: #00d3be;
-    font-size: 2rem;
+    font-size: 25px;
 }
 
 .rabout h3 {
-    font-size: 2.5rem;
+    font-size: 20px;
 }
 
 .rabout p {
-    font-size: 1.5rem;
+    font-size: 15px;
 }
 
 .education {
@@ -113,19 +113,19 @@ body {
 .education .container {
     display: grid;
     grid-template-columns: 1fr 1fr;
-    gap: 1rem;
+    gap: 10px;
 }
 
 .education .container .ed{
     text-align: center;
-    font-size: 2rem;
+    font-size: 15px;
 }
 
 .skills {
     background-color: #292929;
     padding: 5vh;
     text-align: justify;
-    font-size: 2rem;
+    font-size: 12px;
     animation: fadeIn 1.2s ease-in-out;
 
 }
@@ -142,7 +142,7 @@ body {
     background-color: #1f1f1f;
     padding: 4vh;
     animation: slideIn 1s ease-in-out;
-    font-size: 2rem;
+    font-size: 12px;
 }
 
 .experience h2 {
@@ -154,12 +154,13 @@ body {
     background-color: #292929;
     padding: 5vh 0;
     animation: fadeIn 1.5s ease-in-out;
-    font-size: 2rem;
+    font-size: 12px;
 }
 
 .contact h2 {
     text-align: center;
     color: #00ff00;
+    font-size: 15px;
 }
 
 .contact i {
@@ -174,10 +175,15 @@ body {
 .contact .top, .contact .bot {
     text-align: center;
     padding: 1vh 0;
+    font-size: 15px;
+}
+
+.contact .bot{
+    font-size: 25px;
 }
 
 .contact .top i, .contact .bot a i {
-    margin: 0 1vw;
+    margin: 0 0.5vw;
     transition: transform 0.3s ease-in-out;
 }
 
@@ -185,6 +191,12 @@ body {
     transform: scale(1.2);
     color: #00ff00;
 }
+
+.contact .top i.fa-brands.fa-whatsapp{
+    margin: 0.3vw;
+    font-size: 15px;
+}
+
 
 /* Animations */
 @keyframes fadeIn {
